@@ -30,7 +30,7 @@ const Hero = () => {
                         I’m eager to learn new technologies and grow as a software professional.
                     </motion.p>
 
-                    <div>
+                    <div className="flex items-center gap-4">
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
@@ -41,6 +41,13 @@ const Hero = () => {
                                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                             </span>
                         </motion.button>
+                        <a
+                            href="/resume.pdf"
+                            download={true}
+                            className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-300"
+                        >
+                            Download Resume
+                        </a>
                     </div>
                 </div>
 
