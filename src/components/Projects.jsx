@@ -19,7 +19,7 @@ const Projects = () => {
             description: 'Interactive static website with engaging car animations.',
             link: 'https://github.com/vishal-stackops/Car-Animation-Static-Website',
             src: carAnimation,
-            demo: 'file:///C:/Users/Admin/Desktop/GitHub%20Projects/Cars%20Animation%20Project/index.html'
+            demo: 'car-animation-static-website.vercel.app'
         },
         {
             id: 3,
