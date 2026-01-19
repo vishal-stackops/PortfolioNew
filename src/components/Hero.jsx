@@ -30,7 +30,7 @@ const Hero = () => {
                         I’m eager to learn new technologies and grow as a software professional.
                     </motion.p>
 
-                    <div className="flex items-center gap-4">
+                    <div>
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
