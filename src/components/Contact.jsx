@@ -25,7 +25,7 @@ const Contact = () => {
                         <span>+91 9325628255</span>
                     </div>
                     <div className="flex items-center gap-4 text-xl">
-                        <a href="https://www.linkedin.com/in/vishal-r-rajput/" target="_blank" rel="noreferrer" className="flex items-center gap-4 duration-200 hover:scale-110">
+                        <a href="#" target="_blank" rel="noreferrer" className="flex items-center gap-4 duration-200 hover:scale-110">
                             <FaLinkedin size={30} className="text-cyan-500" />
                             <span>LinkedIn</span>
                         </a>
