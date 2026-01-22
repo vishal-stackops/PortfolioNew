@@ -3,6 +3,7 @@ import awsCert from '../certifications/AWS Cloud Practitioner Certifiaction.png'
 import courseCert from '../certifications/Course_Completion_Certificate.jpg';
 import ibmCert from '../certifications/IBM Certificate of Completion for Web Development using HTML.png';
 import ibmJavaCert from '../certifications/IBM Certificate of Completion for Java.png';
+import ibmSqlCert from '../certifications/IBM Certificate of Completion for SQL and Relational Database.png';
 
 
 const Certifications = () => {
@@ -29,6 +30,15 @@ const Certifications = () => {
         },
         {
             id: 3,
+            title: 'IBM Certificate of Completion for SQL and Relational Database 101',
+            issuer: 'IBM',
+            date: '2026',
+            description: 'This certification validates foundational knowledge of SQL and relational databases. Covered concepts include creating and managing databases, writing SQL queries (SELECT, INSERT, UPDATE, DELETE), filtering and sorting data, and working with multiple tables.',
+            src: ibmSqlCert,
+            link: 'https://courses.itvedant.skillsnetwork.site/certificates/0765a161e6584b11a57556e57aee4ebf'
+        },
+        {
+            id: 4,
             title: 'Master in Full Stack Web Development with Java',
             issuer: 'IT Vedant Pvt Ltd',
             date: '2025',
@@ -37,13 +47,14 @@ const Certifications = () => {
             link: 'https://drive.google.com/file/d/1UAz7XOfviAfQkEFkJ7Ip7VeXuRilV2S_/view?usp=drive_link'
         },
         {
-            id: 4,
+            id: 5,
             title: 'AWS Certified Cloud Practitioner',
             issuer: 'Amazon Web Services',
             date: '2024',
             description: 'Foundational certification validating knowledge of AWS Cloud concepts, core services, security and compliance, pricing models, and basic architectural best practices.',
             src: awsCert,
             link: 'https://cp.certmetrics.com/amazon/en/public/verify/credential/c9babdb7a898418a8759288c80148bd0'
+
         }
 
     ];
