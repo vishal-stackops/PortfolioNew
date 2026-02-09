@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio website built with React and Tailwind CSS. This application showcases my projects, technical skills, and certifications in an interactive and visually appealing format.
 
+**🔗 Live Demo:** [https://vishal-rajput-portfolio.vercel.app/](https://vishal-rajput-portfolio.vercel.app/)
+
 ## 🚀 Features
 
 - **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
@@ -47,12 +49,21 @@ npm run build
 
 This command generates a `dist` folder containing the optimized and minified assets, ready for deployment.
 
-## deployment
+## 🚀 Deployment
 
-The `dist` folder can be deployed to any static site hosting service such as:
-- **GitHub Pages**
-- **Netlify**
-- **Vercel**
+### Deploying to Vercel
+1.  Push your code to a Git repository (GitHub, GitLab, or Bitbucket).
+2.  Sign up or log in to [Vercel](https://vercel.com/).
+3.  Click **"Add New..."** and select **"Project"**.
+4.  Import your Git repository.
+5.  Vercel will detect the framework (Vite/React) and configure the build settings automatically:
+    - **Build Command:** `npm run build`
+    - **Output Directory:** `dist`
+    - **Install Command:** `npm install`
+6.  Click **"Deploy"**.
+7.  Once deployed, your application will be live!
+
+The `dist` folder can also be deployed to other static site hosting services like GitHub Pages or Netlify.
 
 ## 💡 Challenges & Solutions
 
